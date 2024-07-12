@@ -1,5 +1,5 @@
 {
   "name": "OmniSecTech",
-  "render_readme": true,
+  "render_readme": false,
   "iot_class": "assumed_state"
 }
