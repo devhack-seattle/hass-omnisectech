@@ -1,0 +1,11 @@
+{
+  "domain": "omnisectech",
+  "name": "omnisectech",
+  "codeowners": [
+    "@mjsir911"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "iot_class": "assumed_state",
+  "requirements": ["pydantic"]
+}
