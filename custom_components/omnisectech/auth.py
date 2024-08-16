@@ -109,7 +109,6 @@ class OmniSecTechAuth(AuthBase):
         self._username = username
         self._password = password
         self._expiretime = datetime.datetime.min
-        self.regen_if_needed()
 
     def __call__(self, r):
         self.regen_if_needed()
